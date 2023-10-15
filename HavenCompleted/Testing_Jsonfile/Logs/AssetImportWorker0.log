@@ -1,0 +1,820 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16248 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/HAU/DHHienthucAo/LinhVR/Testing_Jsonfile
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53481
+Successfully changed project path to: D:/HAU/DHHienthucAo/LinhVR/Testing_Jsonfile
+D:/HAU/DHHienthucAo/LinhVR/Testing_Jsonfile
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17064] Host "[IP] 192.168.11.104 [Port] 0 [Flags] 2 [Guid] 2108885532 [EditorId] 2108885532 [Version] 1048832 [Id] WindowsEditor(7,DUONGNT-027) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17064] Host "[IP] 192.168.11.104 [Port] 0 [Flags] 2 [Guid] 2108885532 [EditorId] 2108885532 [Version] 1048832 [Id] WindowsEditor(7,DUONGNT-027) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 12.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/HAU/DHHienthucAo/LinhVR/Testing_Jsonfile/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) 520 (ID=0x6665)
+    Vendor:   ATI
+    VRAM:     2039 MB
+    Driver:   27.20.20904.4000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010641 seconds.
+- Loaded All Assemblies, in  0.778 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.535 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (289ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (536ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (415ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.510 seconds
+Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.136 seconds
+Domain Reload Profiling: 2644ms
+	BeginReloadAssembly (370ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (957ms)
+		LoadAssemblies (627ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (538ms)
+			TypeCache.Refresh (470ms)
+				TypeCache.ScanAssembly (422ms)
+			ScanForSourceGeneratedMonoScriptInfo (54ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1137ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (774ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (582ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3532.
+Memory consumption went from 114.2 MB to 114.1 MB.
+Total: 5.480300 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.306800 ms MarkObjects: 4.766800 ms  DeleteObjects: 0.111300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59198.576991 seconds.
+  path: Assets/MatTexDuong/MatTex/ColorPalette_M0_DualityBClothBlueDark_MI_V.mat
+  artifactKey: Guid(011efff4b6e3d514eb57654ce6fd5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/ColorPalette_M0_DualityBClothBlueDark_MI_V.mat using Guid(011efff4b6e3d514eb57654ce6fd5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03703495377333d0ed17b5b1ae3bec72') in 0.241619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.169814 seconds.
+  path: Assets/MatTexDuong/MatTex/Grass_M1_NM.png
+  artifactKey: Guid(d6dccdb37e6e86d43bae7fb82f6ccbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Grass_M1_NM.png using Guid(d6dccdb37e6e86d43bae7fb82f6ccbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f70ad5844aa0f816b8326bad545194e') in 0.081725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.214386 seconds.
+  path: Assets/MatTexDuong/MatTex/Pot_1_M0_Plant_MI_NV.mat
+  artifactKey: Guid(0dccba65420dec34ba2aca43ba1ea868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Pot_1_M0_Plant_MI_NV.mat using Guid(0dccba65420dec34ba2aca43ba1ea868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a8c56c88e0ea79f4e58da8293147da') in 0.099586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MatTexDuong/MatTex/Pot_1_M1_Pot_MI_NV.mat
+  artifactKey: Guid(9cef0e387a98eac4cb1b77938a37cea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Pot_1_M1_Pot_MI_NV.mat using Guid(9cef0e387a98eac4cb1b77938a37cea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286e8ceac23bd9ca7167c7b6767cda53') in 0.123919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.129806 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_2_M0_BirdCage_MI_NV.mat
+  artifactKey: Guid(ea583fd3a2665e74e8c9c3a3615c7a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_2_M0_BirdCage_MI_NV.mat using Guid(ea583fd3a2665e74e8c9c3a3615c7a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4777b59c2f4e6a3ebe2a3ddfeebfc90d') in 0.069496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_6_M0_GrainBin_MI_NV.mat
+  artifactKey: Guid(8c568c0cb40045a4290e0d537b04afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_6_M0_GrainBin_MI_NV.mat using Guid(8c568c0cb40045a4290e0d537b04afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0780a9e0e0a2888b51a1ea6248c47677') in 0.100344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_8_M0_TargetA_MI_NV.mat
+  artifactKey: Guid(f8f8c1b7c8a0b6e459e73d0f6fd2a14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_8_M0_TargetA_MI_NV.mat using Guid(f8f8c1b7c8a0b6e459e73d0f6fd2a14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddb8d59915088368e7ed43c5c37a53c') in 0.103647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.444386 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_9_M0_Box_MI_NV.mat
+  artifactKey: Guid(5f309cef2987d3b429f640165e8af8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_9_M0_Box_MI_NV.mat using Guid(5f309cef2987d3b429f640165e8af8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879fbdb700bf55a067548f72d4bf4484') in 0.065872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_15_M0_PrayerSpinnerA_MI_NV.mat
+  artifactKey: Guid(44bb51798b47bae419f38e5abd4986d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_15_M0_PrayerSpinnerA_MI_NV.mat using Guid(44bb51798b47bae419f38e5abd4986d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312dc83e2917a1d5755ff500e62ea9c6') in 0.075264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_11_M0_BookA_MI_NV.mat
+  artifactKey: Guid(07b32e8c47410b94bbea80114bddc942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_11_M0_BookA_MI_NV.mat using Guid(07b32e8c47410b94bbea80114bddc942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd802284a8fa7111613df4d2442338f') in 0.127298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_12_M0_HayA_MI_NV.mat
+  artifactKey: Guid(23f8092abbbe9c84c9784f94d12b40e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_12_M0_HayA_MI_NV.mat using Guid(23f8092abbbe9c84c9784f94d12b40e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21418420e97751ca31a983dd99484805') in 0.101446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_13_M0_DoorHandleA_NM.png
+  artifactKey: Guid(537abf4ed2b04184faaa9b213f11187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_13_M0_DoorHandleA_NM.png using Guid(537abf4ed2b04184faaa9b213f11187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f3de49c20370e6d760ede41ae5fea8') in 0.197511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_9_M0_StackA_MI_NV.mat
+  artifactKey: Guid(a44e4eff77bc9474295f2c29f52345c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_9_M0_StackA_MI_NV.mat using Guid(a44e4eff77bc9474295f2c29f52345c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52487afecf1274583914c26e51acf346') in 0.040923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.843520 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_16_M0_IncenseBurnerA_MI_NV.mat
+  artifactKey: Guid(5b85dc76fd4594f47b39da054e752936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_16_M0_IncenseBurnerA_MI_NV.mat using Guid(5b85dc76fd4594f47b39da054e752936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5062c42fa1d3ce4e36917ab02ae57872') in 0.225047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_19_M1_PrayerWheel_MI_NV.mat
+  artifactKey: Guid(149dd9ac2e353db4898a70373dd18483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_19_M1_PrayerWheel_MI_NV.mat using Guid(149dd9ac2e353db4898a70373dd18483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7389531b4153e3cba377ca63c795eb') in 0.093597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_18_M0_LadderA_MI_NV.mat
+  artifactKey: Guid(bbd779b2599d2f3449a8f327d1cafe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_18_M0_LadderA_MI_NV.mat using Guid(bbd779b2599d2f3449a8f327d1cafe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a055034758a707448a2badf4caef0b9') in 0.048571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MatTexDuong/MatTex/Prop_20_M0_StoneStovePropA_MI_NV.mat
+  artifactKey: Guid(c0b63bd1b0891f248ab106eed3819196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Prop_20_M0_StoneStovePropA_MI_NV.mat using Guid(c0b63bd1b0891f248ab106eed3819196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccaa4b9a7c375d94e69fd8d9a02a3ec') in 0.165610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1455.054691 seconds.
+  path: Assets/MatTexDuong/Basalt_0_EmissiveBlendA_MI_NV.mat
+  artifactKey: Guid(7a3f95cf477eaa8418e00293bc0f1c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/Basalt_0_EmissiveBlendA_MI_NV.mat using Guid(7a3f95cf477eaa8418e00293bc0f1c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2b2bf73ff4454d96cab44293730edd') in 0.049965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 281.737921 seconds.
+  path: Assets/MatTexDuong/MatTex/Rug_0_M0_DrapedA_NM.png
+  artifactKey: Guid(8838e151e32bf4b45a18ff97e9ed48cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Rug_0_M0_DrapedA_NM.png using Guid(8838e151e32bf4b45a18ff97e9ed48cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141a706f7520c9538f1e327d5f639c7d') in 0.036899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 115.106683 seconds.
+  path: Assets/MatTexDuong/MatTex/SatelliteDish_0_M0_Small_NM.png
+  artifactKey: Guid(696e0b4fd46d1864d8208be2a8a9f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/SatelliteDish_0_M0_Small_NM.png using Guid(696e0b4fd46d1864d8208be2a8a9f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5117f2e4a0c58301ab2cbbb573e91e86') in 0.052081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.245705 seconds.
+  path: Assets/MatTexDuong/MatTex/Sack_0_M0_MoroccanGrainA_NM.png
+  artifactKey: Guid(0404033feca5e8e4eb23016b58c0aacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Sack_0_M0_MoroccanGrainA_NM.png using Guid(0404033feca5e8e4eb23016b58c0aacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361982c9af0262ad0220120537764c36') in 0.034646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 70.044053 seconds.
+  path: Assets/MatTexDuong/MatTex/Sack_0_M0_MoroccanGrainC_NM.png
+  artifactKey: Guid(9422d895e20ab4141b1f0f432f299606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Sack_0_M0_MoroccanGrainC_NM.png using Guid(9422d895e20ab4141b1f0f432f299606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09693e16caf1f31f431454708421da6c') in 0.040155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1780.679043 seconds.
+  path: Assets/MatTexDuong/MatTex/Sign_7_M1_OldRamshackle_NM.png
+  artifactKey: Guid(aff394c7013f1044da66b96f76723cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Sign_7_M1_OldRamshackle_NM.png using Guid(aff394c7013f1044da66b96f76723cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261906f55c79b9edbc19d0e8ba3d64a8') in 0.024170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 278.324566 seconds.
+  path: Assets/MatTexDuong/MatTex/Spice_9_M0_Shelf_NM.png
+  artifactKey: Guid(be916d32f28b9dd46b7348d72c2e8563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Spice_9_M0_Shelf_NM.png using Guid(be916d32f28b9dd46b7348d72c2e8563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31caaf9ffd03f66ea51a42dc1fe2c663') in 0.032900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 45.162938 seconds.
+  path: Assets/MatTexDuong/MatTex/Stairs_0_M0_Stone_NM.png
+  artifactKey: Guid(14b4443df8e59c3428275ec3096f00d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Stairs_0_M0_Stone_NM.png using Guid(14b4443df8e59c3428275ec3096f00d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba711329937b97a580236a95d22d250') in 0.029831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 42.040796 seconds.
+  path: Assets/MatTexDuong/MatTex/Statue_0_M0_MonkeyA_NM.png
+  artifactKey: Guid(545a3ed22fe9f5c49900a17378e9326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Statue_0_M0_MonkeyA_NM.png using Guid(545a3ed22fe9f5c49900a17378e9326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ecaa5bea238874f723984ebe8ab58a') in 0.034302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 197.064236 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_0_M3_AntennaA_NM.png
+  artifactKey: Guid(8bc52f3884a98244e83dc09d413ffe9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_0_M3_AntennaA_NM.png using Guid(8bc52f3884a98244e83dc09d413ffe9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41140c3bf6344bac433dcf996053506') in 0.033748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 171.744001 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_0_M0_RebelSupplyCargoStraps_NM.png
+  artifactKey: Guid(b7ed16339f45c62419d79466a8d9f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_0_M0_RebelSupplyCargoStraps_NM.png using Guid(b7ed16339f45c62419d79466a8d9f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1b8ddcaa75a1f60ba233a8eab8de21') in 0.026968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.829008 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_0_M2_Radio_NM.png
+  artifactKey: Guid(5a4383511fe170348adf55fc919f8598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_0_M2_Radio_NM.png using Guid(5a4383511fe170348adf55fc919f8598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737af61c8d75d054fddff53c4dae4913') in 0.036335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.242424 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_0_M5_GeneratorA_NM.png
+  artifactKey: Guid(649db293bcf380b49b184edc8ce67f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_0_M5_GeneratorA_NM.png using Guid(649db293bcf380b49b184edc8ce67f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f5e658115c9ec9c663530a15f197c7') in 0.022207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 54.039017 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_0_M1_Viewfinder_NM.png
+  artifactKey: Guid(1ae1b0daf148e02479e6531d2eca0c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_0_M1_Viewfinder_NM.png using Guid(1ae1b0daf148e02479e6531d2eca0c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ade42d7224e0da6b1e80f75f6bcdcef') in 0.022021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.189019 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_1_M0_RebelGunCase_NM.png
+  artifactKey: Guid(1de78c91f0186694e81cb37493c154b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_1_M0_RebelGunCase_NM.png using Guid(1de78c91f0186694e81cb37493c154b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae7524c4c6ae0a8db3fbdf0fe5e4d6d') in 0.024532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 137.079772 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_5_M0_SecurityPad_NM.png
+  artifactKey: Guid(0f14d99986c009f47bd537f51e6632f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_5_M0_SecurityPad_NM.png using Guid(0f14d99986c009f47bd537f51e6632f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f8abfa2fd2a3f644c360cc9f6c2953') in 0.031699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.466966 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_0_M3_AntennaA_MI_NV.mat
+  artifactKey: Guid(a028172da3358b443be859e2733c36bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_0_M3_AntennaA_MI_NV.mat using Guid(a028172da3358b443be859e2733c36bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4464ec1e8e856fecfb3797f23a281ad2') in 0.033443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_5_M0_SecurityPad_MI_NV.mat
+  artifactKey: Guid(a0bf7fd5c0ac73a40b86bfda15687ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_5_M0_SecurityPad_MI_NV.mat using Guid(a0bf7fd5c0ac73a40b86bfda15687ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06627ad2cdcea1c9e90d190d45d8376') in 0.032035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1892.515322 seconds.
+  path: Assets/MatTexDuong/MatTex/TechElement_13_M0_AntennaKitA_NM.png
+  artifactKey: Guid(5cfd052420292244aa5e3f34095d32a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/TechElement_13_M0_AntennaKitA_NM.png using Guid(5cfd052420292244aa5e3f34095d32a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471bd5f70dbea4c375021f7fd41b7052') in 0.054801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 231.106189 seconds.
+  path: Assets/MatTexDuong/MatTex/TechElement_22_M0_FansA_NM.png
+  artifactKey: Guid(26e28cd21531f944296e90170a53fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/TechElement_22_M0_FansA_NM.png using Guid(26e28cd21531f944296e90170a53fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5c7a3ebc1d8338b34b31712c3c9a4e') in 0.053060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 45.616673 seconds.
+  path: Assets/MatTexDuong/MatTex/TechElement_23_M0_WallPanel_NM.png
+  artifactKey: Guid(efc07cc3178bd8f4da9322baa8ec4939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/TechElement_23_M0_WallPanel_NM.png using Guid(efc07cc3178bd8f4da9322baa8ec4939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2121d1978ac9def9f2158e5a7725fdd') in 0.046603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.529245 seconds.
+  path: Assets/MatTexDuong/MatTex/TechElement_25_M0_SmallTank_NM.png
+  artifactKey: Guid(878af99d778bd814dab2cd1b1bf94d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/TechElement_25_M0_SmallTank_NM.png using Guid(878af99d778bd814dab2cd1b1bf94d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53284571d8eec48568a8ae7315b9e42a') in 0.049291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 66.758585 seconds.
+  path: Assets/MatTexDuong/MatTex/TechElement_31_M0_Box_NM.png
+  artifactKey: Guid(944e0dc9caa55b749955444086b6fc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/TechElement_31_M0_Box_NM.png using Guid(944e0dc9caa55b749955444086b6fc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8c2d4d65cdcb8267718d393b3d86d5') in 0.046142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 153.644973 seconds.
+  path: Assets/MatTexDuong/MatTex/TelephonePole_0_M0_NM.png
+  artifactKey: Guid(9af87cad151d75f4daa7bc2ebc9c509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/TelephonePole_0_M0_NM.png using Guid(9af87cad151d75f4daa7bc2ebc9c509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105ff2987516148c9d66118236a2fcef') in 0.054705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 236.239796 seconds.
+  path: Assets/MatTexDuong/MatTex/Tools_0_M0_NM.png
+  artifactKey: Guid(0cd2cdb919a4cb447997a1098ed8fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tools_0_M0_NM.png using Guid(0cd2cdb919a4cb447997a1098ed8fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a296cfd03ec23ba22286315a985715eb') in 0.025705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.455754 seconds.
+  path: Assets/MatTexDuong/MatTex/Tile_M7_BasicSquare_NM.png
+  artifactKey: Guid(67fea19ec623e58489a1ee8bd7e81d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tile_M7_BasicSquare_NM.png using Guid(67fea19ec623e58489a1ee8bd7e81d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943c2cd4c77907c034c27b67e7e9a1a9') in 0.030685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 21.147462 seconds.
+  path: Assets/MatTexDuong/MatTex/TrashBag_0_M0_NM.png
+  artifactKey: Guid(5ee5142ef5ef5844a82cfa58c82ab1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/TrashBag_0_M0_NM.png using Guid(5ee5142ef5ef5844a82cfa58c82ab1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a937878cc0ae73526995c79ed5eddeff') in 0.024724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 304.021554 seconds.
+  path: Assets/MatTexDuong/MatTex/0_VisionBlocker_NV.mat
+  artifactKey: Guid(cd06db32497383742b415cd4b42ec4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/0_VisionBlocker_NV.mat using Guid(cd06db32497383742b415cd4b42ec4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce17b94d1aa3bc8be83acc9187c2bfd3') in 0.045605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.197384 seconds.
+  path: Assets/MatTexDuong/MatTex/Rainpipe_0_M0_NM.png
+  artifactKey: Guid(b1ba75054a7466344ac532bafbb89e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Rainpipe_0_M0_NM.png using Guid(b1ba75054a7466344ac532bafbb89e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9a7457efaf03665279e0d550c899b4') in 0.044408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017510 seconds.
+  path: Assets/MatTexDuong/MatTex/Rocks_1_M0_MediumChunkIce_MI_NV.mat
+  artifactKey: Guid(fd332df73b9244f44921b0467e5fa853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Rocks_1_M0_MediumChunkIce_MI_NV.mat using Guid(fd332df73b9244f44921b0467e5fa853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e91a635f6625d3ffcbbbecbbd506d4') in 0.034763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.120300 seconds.
+  path: Assets/MatTexDuong/MatTex/Sack_0_M0_MoroccanGrainA_MI_NV.mat
+  artifactKey: Guid(228672cb653a16b4cb919c8f2f619f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Sack_0_M0_MoroccanGrainA_MI_NV.mat using Guid(228672cb653a16b4cb919c8f2f619f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a287aa517b013da85f664c4905ffc5f3') in 0.226151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MatTexDuong/MatTex/Shell_6_M0_ASiteCornerBuildingCustomsDoor_MI_NV.mat
+  artifactKey: Guid(1b8996f9d5d68b14895acb29b965ee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Shell_6_M0_ASiteCornerBuildingCustomsDoor_MI_NV.mat using Guid(1b8996f9d5d68b14895acb29b965ee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2acfc8e91a5352c08becab40312b85') in 0.071152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MatTexDuong/MatTex/SatelliteDish_0_M0_Small_MI_NV.mat
+  artifactKey: Guid(3925d85d1d42d1549b318a120b264b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/SatelliteDish_0_M0_Small_MI_NV.mat using Guid(3925d85d1d42d1549b318a120b264b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa30a221fa1d364ed091c507623c99c') in 0.078637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.189972 seconds.
+  path: Assets/MatTexDuong/MatTex/Sign_1_M0_KingdomTextA_MI_V.mat
+  artifactKey: Guid(44d63fc359f471348b554623c97fc9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Sign_1_M0_KingdomTextA_MI_V.mat using Guid(44d63fc359f471348b554623c97fc9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3aabe401ed75d88234339a2d684646') in 0.057942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MatTexDuong/MatTex/Sign_10_M0_OldRamshackle_NM.png
+  artifactKey: Guid(96dc1ce8a522b5046874354bcda5113e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Sign_10_M0_OldRamshackle_NM.png using Guid(96dc1ce8a522b5046874354bcda5113e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3de7b26039273e17905e071e8a4fe6') in 0.053865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MatTexDuong/MatTex/Sign_10_M0_OldRamshackle_MI_NV.mat
+  artifactKey: Guid(3fb60fe44caf48544a289f46745987a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Sign_10_M0_OldRamshackle_MI_NV.mat using Guid(3fb60fe44caf48544a289f46745987a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56033df9b3c9a1275af71f452b2f1320') in 0.070320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MatTexDuong/MatTex/Statue_0_M0_MonkeyA_MI_NV.mat
+  artifactKey: Guid(3aea42fbcd62a5d4586b897d46544dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Statue_0_M0_MonkeyA_MI_NV.mat using Guid(3aea42fbcd62a5d4586b897d46544dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5d7f6e60b7aa6165466f71ce1ac69d') in 0.116531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.440732 seconds.
+  path: Assets/MatTexDuong/MatTex/Support_2_M0_InteriorSpan_MI_NV.mat
+  artifactKey: Guid(72ff4266beca012469eafc483c78a0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Support_2_M0_InteriorSpan_MI_NV.mat using Guid(72ff4266beca012469eafc483c78a0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57956cde5824d0f8fe7ad7199ff05e52') in 0.055809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.080713 seconds.
+  path: Assets/MatTexDuong/MatTex/TarpCrate_0_M0_NM.png
+  artifactKey: Guid(0e49d945e2c50dd42a193af45bbf2358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/TarpCrate_0_M0_NM.png using Guid(0e49d945e2c50dd42a193af45bbf2358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc10251a2a580c58e56dbbe19fd01a0') in 0.063828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_0_M0_RebelSupplyCargoStraps_MI_NV.mat
+  artifactKey: Guid(49a6042f12f29ed4bae420395565f159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_0_M0_RebelSupplyCargoStraps_MI_NV.mat using Guid(49a6042f12f29ed4bae420395565f159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4939419c0d495dc811b6655875056189') in 0.101537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MatTexDuong/MatTex/Tech_0_M1_Viewfinder_MI_NV.mat
+  artifactKey: Guid(ca20a0e42ce4e324d8c086cb40e3fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Tech_0_M1_Viewfinder_MI_NV.mat using Guid(ca20a0e42ce4e324d8c086cb40e3fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b151192517379bb00d2e71583babe88c') in 0.066382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 230.401824 seconds.
+  path: Assets/MatTexDuong/MatTex/Wall_14_M0_Fence_NM.png
+  artifactKey: Guid(1c3283038a06033458ee39ea7d6c1e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wall_14_M0_Fence_NM.png using Guid(1c3283038a06033458ee39ea7d6c1e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7594f07e3488b9452f9b70f17bed1618') in 0.028063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 151.337190 seconds.
+  path: Assets/MatTexDuong/MatTex/WallDetail_0_M0_Circle_NM.png
+  artifactKey: Guid(6fe8da002b379aa4f8e7b1544a3a2d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/WallDetail_0_M0_Circle_NM.png using Guid(6fe8da002b379aa4f8e7b1544a3a2d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193be5f428f28fdac24ad130e9e957ea') in 0.021850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.013048 seconds.
+  path: Assets/MatTexDuong/MatTex/WallElectricBox_0_M0_NM.png
+  artifactKey: Guid(bc8f6524f269e3648bad88e3e8e64b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/WallElectricBox_0_M0_NM.png using Guid(bc8f6524f269e3648bad88e3e8e64b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829404c9ec3eed6fd3d809f2022f063d') in 0.063319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 346.804775 seconds.
+  path: Assets/MatTexDuong/MatTex/Window_7_M1_CommonWoodD_NM.png
+  artifactKey: Guid(9508d510a29b8de47a579ae9124a8f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Window_7_M1_CommonWoodD_NM.png using Guid(9508d510a29b8de47a579ae9124a8f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e2b533900cbcb099c74d547ab62b9e') in 0.024402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.196673 seconds.
+  path: Assets/MatTexDuong/MatTex/Window_7_M0_CommonWoodA_NM.png
+  artifactKey: Guid(66542dcef571c724c8f7da33e2803b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Window_7_M0_CommonWoodA_NM.png using Guid(66542dcef571c724c8f7da33e2803b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42d2ef78c6680b996cae63560842368') in 0.023821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 91.318912 seconds.
+  path: Assets/MatTexDuong/MatTex/Window_8_M1_TempleMidBuilding_NM.png
+  artifactKey: Guid(d5a6f36f8c8309e458289fae0ce3e040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Window_8_M1_TempleMidBuilding_NM.png using Guid(d5a6f36f8c8309e458289fae0ce3e040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595df7fc7927e250521eca68630252cf') in 0.023683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 148.737305 seconds.
+  path: Assets/MatTexDuong/MatTex/Window_10_M1_LargeFill_NM.png
+  artifactKey: Guid(f733c02b36c2ad449a29e4b0123109c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Window_10_M1_LargeFill_NM.png using Guid(f733c02b36c2ad449a29e4b0123109c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7e459cd0d7b802801a8a135aacc2e9') in 0.027964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.264886 seconds.
+  path: Assets/MatTexDuong/MatTex/Window_10_M0_Window_NM.png
+  artifactKey: Guid(385dfa36b320f9142bb4390c4ec555e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Window_10_M0_Window_NM.png using Guid(385dfa36b320f9142bb4390c4ec555e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf4f91e477919a32e18dc9c2df42d7a') in 0.030355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 78.163479 seconds.
+  path: Assets/MatTexDuong/MatTex/Wires_0_M0_NM.png
+  artifactKey: Guid(c5ed4f2b944899c40ad6dd222afb06bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wires_0_M0_NM.png using Guid(c5ed4f2b944899c40ad6dd222afb06bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6d4943b29515591a8db1870ccd40aa') in 0.058848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 63.576832 seconds.
+  path: Assets/MatTexDuong/MatTex/Wires_2_M0_RebelWiresCabels_NM.png
+  artifactKey: Guid(6b0f70a94e65cbe439847eb42ff78cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wires_2_M0_RebelWiresCabels_NM.png using Guid(6b0f70a94e65cbe439847eb42ff78cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a619aa806c859cc7258c480dc2acf44') in 0.034870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 87.625731 seconds.
+  path: Assets/MatTexDuong/MatTex/Wires_0_M0_Ofset_NM.png
+  artifactKey: Guid(11f98acf0bb3ecb4f9d82bb1be8b3022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wires_0_M0_Ofset_NM.png using Guid(11f98acf0bb3ecb4f9d82bb1be8b3022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b81bc8c85ef1e088e5ba0482b08641') in 0.032112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.982378 seconds.
+  path: Assets/MatTexDuong/MatTex/Wires_0_M0_Box_NM.png
+  artifactKey: Guid(e41238fd72badec4fa1ad5833613c73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wires_0_M0_Box_NM.png using Guid(e41238fd72badec4fa1ad5833613c73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fd8068084d5e5f0dcff9acf42af632') in 0.033453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 244.872433 seconds.
+  path: Assets/MatTexDuong/MatTex/Wood_2_M0_Pole_NM.png
+  artifactKey: Guid(59cf065f56de91e4bb7f571d1b7f3850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wood_2_M0_Pole_NM.png using Guid(59cf065f56de91e4bb7f571d1b7f3850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7b3af1c1ebe6487faab26b7c0755a9') in 0.028227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.380685 seconds.
+  path: Assets/MatTexDuong/MatTex/WoodBox_0_M0_A_NM.png
+  artifactKey: Guid(f997686f8e34f56449fadc2317d6da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/WoodBox_0_M0_A_NM.png using Guid(f997686f8e34f56449fadc2317d6da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a380756f9846436661036cb84108605f') in 0.069364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 53.965360 seconds.
+  path: Assets/MatTexDuong/MatTex/Wood_M10_NM.png
+  artifactKey: Guid(53b16ec60382e674aa809741c9236f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wood_M10_NM.png using Guid(53b16ec60382e674aa809741c9236f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03733e24b3d72e032e2c88149b30ef6c') in 0.029790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.794824 seconds.
+  path: Assets/MatTexDuong/MatTex/Wood_M0_DisheveledPlanks_NM.png
+  artifactKey: Guid(3c5d5f3a1a96e504b9a3280d052c5b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wood_M0_DisheveledPlanks_NM.png using Guid(3c5d5f3a1a96e504b9a3280d052c5b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc266769c646828012ab8d84a89c8a62') in 0.027911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.303084 seconds.
+  path: Assets/MatTexDuong/MatTex/Wires_0_M0_Box_MI_NV.mat
+  artifactKey: Guid(067226adc60d1a0408ac014e54cf0699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wires_0_M0_Box_MI_NV.mat using Guid(067226adc60d1a0408ac014e54cf0699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc532a9574f622b4cfbaa46f3b1436a8') in 0.040523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/MatTexDuong/MatTex/Wires_2_M0_RebelWiresMaskC_MI_NV.mat
+  artifactKey: Guid(6ba888062bbb6234f959f1eaa5c4c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wires_2_M0_RebelWiresMaskC_MI_NV.mat using Guid(6ba888062bbb6234f959f1eaa5c4c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a38bcf26f7c2e2b87c250437d334116') in 0.028904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MatTexDuong/MatTex/Wood_2_M0_Log_MI_NV.mat
+  artifactKey: Guid(b2bcd367fa0593f4f9a12d0d4dc6733c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wood_2_M0_Log_MI_NV.mat using Guid(b2bcd367fa0593f4f9a12d0d4dc6733c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9eeef0d0d31b7b8b50b902ac92289dd') in 0.065609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MatTexDuong/MatTex/Wood_M0_DisheveledPlanks_MI_NV.mat
+  artifactKey: Guid(af2e17a8c6e897e46b99efab35a1afb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wood_M0_DisheveledPlanks_MI_NV.mat using Guid(af2e17a8c6e897e46b99efab35a1afb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3806a3eee21854ac8de674218b34c1e7') in 0.020379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MatTexDuong/MatTex/Wires_0_Ofset_MI_NV.mat
+  artifactKey: Guid(f28535321db648b4892346e102b6d862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MatTexDuong/MatTex/Wires_0_Ofset_MI_NV.mat using Guid(f28535321db648b4892346e102b6d862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b6d82170f07aed38e4b14b0940dd95') in 0.021858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 23.607000 seconds.
+  path: Assets/PrefabDuong/HavenNewtoP.prefab
+  artifactKey: Guid(96eda6859e6584d4db9047ff0158df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabDuong/HavenNewtoP.prefab using Guid(96eda6859e6584d4db9047ff0158df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442c024e9b5ab1d20123702cd0d1eaae') in 7.263872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85613
